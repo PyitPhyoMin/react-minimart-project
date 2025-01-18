@@ -315,6 +315,6 @@
   color: rgb(5, 143, 56);
   animation: breathing 3s infinite;
 }
-.magnifier {
+.magnifierPicture {
   display: flex !important;
 }

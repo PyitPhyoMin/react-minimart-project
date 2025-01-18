@@ -37,6 +37,7 @@ function ProductPageView({
                       <div className={styles.pictureDisplay}>
                         {products.image && (
                           <div
+                            className={styles.magnifierPicture}
                             onMouseEnter={handlerImageEnter}
                             onMouseLeave={handlerImageLeave}
                             onTouchStart={handlerImageEnter}
@@ -56,6 +57,7 @@ function ProductPageView({
                               mgTouchOffsetY="0"
                               height="auto"
                               width="80%"
+                              style={{ display: "flex" }}
                             ></Magnifier>
                           </div>
                         )}
