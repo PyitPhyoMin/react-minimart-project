@@ -57,7 +57,6 @@ function ProductPageView({
                               mgTouchOffsetY="0"
                               height="auto"
                               width="80%"
-                              style={{ display: "flex" }}
                             ></Magnifier>
                           </div>
                         )}
