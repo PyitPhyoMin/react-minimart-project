@@ -11,7 +11,10 @@ import { CartBar } from "../../components/CartBar/CartBar";
 
 const DBupdateCart = async (userId, cart) => {
   try {
-    const res = await mockApi.patch(`/users/${userId}`, {
+    /* const res = await mockApi.patch(`/users/${userId}`, {
+      cart: cart,
+    }); */
+    const res = await mockApi.put(`/users/${userId}`, {
       cart: cart,
     });
     console.log("PATCH response:", res);
